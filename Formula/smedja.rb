@@ -3,28 +3,28 @@
 class Smedja < Formula
   desc "Terminal client for smedja, coding agents in hosted workspaces"
   homepage "https://www.smedja.app"
-  version "0.1510"
+  version "0.1511"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://console.smedja.app/dl/13d3b6582f2d0c9ac5645739a3422cd0666f0830/smedja-darwin-arm64.tar.gz"
-      sha256 "2b25c3288b6bf03d72f27488236aa0b130aab021a454f984db6688f2eb44fc5d"
+      url "https://console.smedja.app/dl/c5f32e6c68b3ab738dc36a85ea47c28096fef2e9/smedja-darwin-arm64.tar.gz"
+      sha256 "17454086283d37b8b065690addf85c854564863e33e15bbd7e25fe9389a307fb"
     end
     on_intel do
-      url "https://console.smedja.app/dl/13d3b6582f2d0c9ac5645739a3422cd0666f0830/smedja-darwin-amd64.tar.gz"
-      sha256 "b6dd457fa5ce4e7051ca2c85e7a8d515edfc29d4624651e1d2ad5a8cd2fef6f5"
+      url "https://console.smedja.app/dl/c5f32e6c68b3ab738dc36a85ea47c28096fef2e9/smedja-darwin-amd64.tar.gz"
+      sha256 "09de2ce6da9a935febcd5deadd4d7e61b8d516d254d0a17d47ae88c70f02c6c2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://console.smedja.app/dl/13d3b6582f2d0c9ac5645739a3422cd0666f0830/smedja-linux-arm64.tar.gz"
-      sha256 "cf47e0c88eeacbc05c1f5dfc403e9b89ca699f44b564dafa8ad1af954014faae"
+      url "https://console.smedja.app/dl/c5f32e6c68b3ab738dc36a85ea47c28096fef2e9/smedja-linux-arm64.tar.gz"
+      sha256 "73eab0718b06744bc060c7e3abc8b475d1e30e8d95c392dff6c55d1bf2af5015"
     end
     on_intel do
-      url "https://console.smedja.app/dl/13d3b6582f2d0c9ac5645739a3422cd0666f0830/smedja-linux-amd64.tar.gz"
-      sha256 "a0b4d11c5c2db1c5f40342757615adbe26e1ac453a4616ff4b5b97572cdf30bf"
+      url "https://console.smedja.app/dl/c5f32e6c68b3ab738dc36a85ea47c28096fef2e9/smedja-linux-amd64.tar.gz"
+      sha256 "1f79a5e6309afe03861b576c8e6c201c2f230b54d3b85c738855c7afc70c03d1"
     end
   end
 
